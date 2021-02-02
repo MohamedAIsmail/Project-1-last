@@ -2,6 +2,14 @@
     display: inline-flex;
  
 }
+.lol{
+    background-color: #7abaff;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,
+    'OpenSans','Helvetica Neue',sans-serif;
+    padding: 50px 0px;
+
+
+}
 ul li {
     display: inline-block;
     color:black;
@@ -143,12 +151,91 @@ text-decoration: none;
     margin-bottom:0px;
     margin-top: 0px;
 }
-.hf{
-
-}
 .sponser{
+    margin:0px auto;
+    display: block;
+    box-shadow:0 8px 32px 0 rgb(1, 7, 22);
+}
+.dww{
+background-image: url("p2.jpg");
+    background-repeat: no-repeat;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,
+    'OpenSans','Helvetica Neue',sans-serif;
+    padding: 50px 0px;
 
 }
+.spnsfrm{
+    padding-left: 42%;
+    width: 15%;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    padding-left: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-family: "Segoe UI";
+}
+.btn a{
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.btn2{
+    display: block;
+    margin:0px auto;
+    font-weight: bold;
+    font-size: large;
+    width: 720px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(207, 52, 49, 0.966);
+    color: white;
+}
+.icon1{
+    background-position: center;
+background-size: cover;
 
+}
+#Capa_1{
+    width: 400px;
+    margin-left: 40%;
+display: block;
+}
+.face,.man{
+    fill-opacity: 50;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 2000;
+}
+.man{
+    animation: man 6s ease-in-out;
 
+}
+@keyframes man {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+
+}
+.face{
+    animation: man 6s ease-in-out;
+}
+@keyframes face {
+    0% {
+        stroke-dashoffset: 2000;
+    }
+    50%{
+        stroke-dashoffset: 2000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
 

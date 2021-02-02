@@ -26,3 +26,35 @@
     });
 
 });
+
+
+
+document.getElementById("addbtn").onclick = function (){
+    addspons();
+};
+let sponsorder = 1;
+function addspons (){
+    const path = document.getElementById("sponsimg").value;
+    const link = document.getElementById("sponslink").value;
+
+    const div = document.createElement('div');
+
+    div.setAttribute("id",sponsorder)
+    sponsorder++;
+
+    div.style.backgroundColor = " rgb(1,11,38)";
+    div.style.padding = "50px 0px";
+    div.style.width = "1349";
+
+    div.innerHTML = '<a target="_blank"  href="'+link+'"><img class="sponser" src='+path+'></a><br><button class="btn2" id="remove">Remove</button>';
+
+    document.getElementById("sponsers").appendChild(div);
+
+}
+document.getElementById("remove").onclick = function (){
+    removespons();
+};
+function removespons (){
+    console.log("true");
+    $this.parent().removechild();
+}
