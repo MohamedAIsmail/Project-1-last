@@ -29,7 +29,7 @@ li :hover{
     color: rgba(207, 52, 49, 0.966);
 }
 .Event{
-    background-image: url("biomedical-sciences-study-area-1920x600 (1).jpg");
+    background-color: black;
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,
 'OpenSans','Helvetica Neue',sans-serif;
     padding: 50px 0px 50px 0px;
@@ -77,7 +77,7 @@ input{
 
 }
 ::placeholder{
-    color: black;
+    color: white;
     opacity: 0.4;
 }
 button{
@@ -148,16 +148,18 @@ text-decoration: none;
     color:black;
 }
 .home{
+    background-image: url("aaaaa.jpg");
     margin-bottom:0px;
     margin-top: 0px;
 }
-.sponser{
-    margin:0px auto;
-    display: block;
-    box-shadow:0 8px 32px 0 rgb(1, 7, 22);
+.sponser {
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'OpenSans', 'Helvetica Neue', sans-serif;
+    padding: 50px 0px 50px 0px;
 }
 .dww{
-background-image: url("p2.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,
     'OpenSans','Helvetica Neue',sans-serif;
